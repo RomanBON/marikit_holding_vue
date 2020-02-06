@@ -1,4 +1,18 @@
-# marikit_holding_vue
+# Completed test task from Marikit Holdings LTD
+
+This project was bootstrapped with [Vue CLI](https://github.com/vuejs/vue-cli).
+
+## List of technologies used
+
+- Vue.js
+- Vuex
+- Typescript
+- Eslint
+
+## Result
+[https://romanbon.github.io/marikit_holding_vue/](https://romanbon.github.io/marikit_holding_vue/)
+
+![](marikit_holding_preview.png?raw=true)
 
 ## Project setup
 ```
