@@ -1,0 +1,27 @@
+@import './variables.styl'
+
+.Table
+  &__table
+    width 100%
+    text-align left
+    border-radius 4px 4px 0 0
+    border-collapse separate
+    border-spacing 0
+
+  &__th
+  &__td
+    padding 15px
+    overflow-wrap break-word
+
+  &__thead > tr > th
+    background $light-gray-color
+    border-bottom 1px solid $dark-gray-color
+
+  &__table-placeholder
+    display flex
+    align-items center
+    justify-content center
+    min-height 100px
+
+  &__table-empty
+    font-size 22px

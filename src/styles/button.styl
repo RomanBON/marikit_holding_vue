@@ -1,0 +1,39 @@
+@import './variables.styl'
+
+.Button
+  font-size 14px
+  padding 10px
+  min-height 30px
+  margin-right 10px
+  margin-bottom 10px
+  cursor pointer
+
+  &._primary
+    color $true-white-color
+    background-color $primary-color
+    border-color $primary-color
+
+  &._primary:hover
+  &._primary:focus
+    background-color $secondary-color
+    border-color $secondary-color
+
+
+  &._danger
+    color $true-white-color
+    background-color $danger-color
+    border-color $danger-color
+
+
+  &._danger:hover
+  &._danger:focus
+    background-color $danger-secondary-color
+    border-color $danger-secondary-color
+
+  &:disabled
+  &:disabled:hover
+  &:disabled:focus
+    cursor not-allowed
+    color $dark-gray-color
+    background-color $light-gray-color
+    border-color $light-gray-color
